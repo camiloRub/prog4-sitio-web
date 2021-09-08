@@ -1,0 +1,117 @@
+body {
+  background-image: url(backg.jpg);
+}
+
+* {
+  /* border: 1px solid red; */
+  color: gray;
+}
+
+.sitebox__UwU {
+  background-color: rgb(244, 244, 244);
+  border: 1px solid lightgray;
+  margin: 20px auto ;
+  width: 900px;
+  position: relative;
+  min-height: 1000px;
+  
+}
+
+.header__titulo {
+  color: rgb(151, 182, 102);
+  margin-left: 30px;
+  font-size: 48px;
+  text-transform: lowercase;
+} 
+
+.header{
+  background: url(headgradient.png);
+  position: relative;
+  height: 60px;
+  top: -32px;
+  width: 830px;
+}
+.navigation {
+  position: relative;
+  top: -28px;
+  text-transform: lowercase;
+}
+
+.navigation__link {
+  text-decoration: none;
+  color: rgb(168, 168, 168);
+  margin-left: 45px;
+  
+}
+
+.header__subtitle{
+  position: absolute;
+  top: 10px;
+  left: 630px;
+  font-size: 13px;
+  color: #ccc;
+  text-transform: lowercase;
+}
+
+.navigation__image {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+.content__title {
+  color: darkblue;
+}
+
+.rcontent__title {
+  color: orange;
+}
+
+.content {
+  position: absolute;
+  width: 50%;
+  margin-left: 20px;
+
+}
+.content__text{
+  width: 400px;
+}
+
+.rcontent {
+  position: relative;
+  width: 30%;
+  left: 50%;
+  margin-left: 100px;
+  background: url(dots.png) repeat-y;
+  background-position: -2px 0px;
+  margin-top: -18px;
+}
+
+.footer__pagine {
+  position: relative;
+  top: 100px;
+  text-align: center;
+}
+
+.link__text {
+  color: greenyellow;
+}
+
+.content__title, .rcontent__title {
+text-transform: uppercase;
+background: url(h1bg.png) repeat-x;
+background-position: 0px 20px;
+position: relative;
+height: 32px;
+}
+
+.content__text, .rcontent__text {
+margin-top: -15px;
+}
+
+.content  {
+  width: 320px;
+}
+
